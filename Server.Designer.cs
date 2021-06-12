@@ -51,6 +51,7 @@ namespace ChatLicenta
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(480, 30);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button2
             // 
@@ -115,6 +116,7 @@ namespace ChatLicenta
             this.button4.TabIndex = 3;
             this.button4.Text = "Stop Server";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
@@ -148,6 +150,7 @@ namespace ChatLicenta
             this.button3.TabIndex = 3;
             this.button3.Text = "Start Server";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Server
             // 
