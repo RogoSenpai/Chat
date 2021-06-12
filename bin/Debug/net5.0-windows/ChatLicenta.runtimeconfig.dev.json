@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ROGO\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ROGO\\.nuget\\packages",
+      "D:\\VSSHARED\\NuGetPackages"
+    ]
+  }
+}
